@@ -4,6 +4,8 @@
     "next-env.d.ts",
     "app/layout.tsx",
     "app/page.tsx",
+    "app/robots.ts",
+    "app/sitemap.ts",
     ".next/types/**/*.ts"
   ],
   "exclude": ["node_modules"]
