@@ -46,6 +46,11 @@ export default function Analytics() {
   useEffect(() => {
     if (consent !== "accepted") return;
 
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = (...args: unknown[]) => window.dataLayer.push(args);
+    window.gtag("js", new Date());
+    window.gtag("config", measurementId, { anonymize_ip: true });
+
     const handleClick = (event: MouseEvent) => {
       if (event.target instanceof Element) trackCommercialClick(event.target);
     };
@@ -62,19 +67,10 @@ export default function Analytics() {
   return (
     <>
       {consent === "accepted" && (
-        <>
-          <Script
-            src={`https://www.googletagmanager.com/gtag/js?id=${measurementId}`}
-            strategy="afterInteractive"
-          />
-          <Script id="google-analytics" strategy="afterInteractive">
-            {`window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-window.gtag = gtag;
-gtag('js', new Date());
-gtag('config', '${measurementId}', { anonymize_ip: true });`}
-          </Script>
-        </>
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${measurementId}`}
+          strategy="afterInteractive"
+        />
       )}
 
       {consent === "loading" && (
