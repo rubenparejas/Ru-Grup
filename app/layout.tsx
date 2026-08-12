@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Manrope, Playfair_Display } from "next/font/google";
+import Analytics from "./analytics";
 import "./globals.css";
 
 const manrope = Manrope({
@@ -107,6 +108,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
         />
         {children}
+        <Analytics />
       </body>
     </html>
   );

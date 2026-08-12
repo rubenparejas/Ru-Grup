@@ -2,6 +2,7 @@
   "extends": "./tsconfig.json",
   "include": [
     "next-env.d.ts",
+    "app/analytics.tsx",
     "app/layout.tsx",
     "app/page.tsx",
     "app/robots.ts",
