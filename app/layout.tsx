@@ -34,6 +34,9 @@ export const metadata: Metadata = {
       "max-video-preview": -1,
     },
   },
+  verification: {
+    google: "6tL-XYjwhrT8lkqAbXTKlmjp2C9ZauYK3oAaG9ovk50",
+  },
   icons: {
     icon: "/ru-grup-isotipo.svg",
     shortcut: "/ru-grup-isotipo.svg",
