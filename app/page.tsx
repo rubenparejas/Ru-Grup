@@ -165,6 +165,26 @@ export default function Home() {
         <div className="plans-gallery" aria-label="Planos 3D actualizados de Terra Nova Residencial">
           <figure className="plan-card">
             <div className="plan-image">
+              <img src="/terra-nova-duplex-primer-piso-v3.png" alt="Plano 3D actualizado del primer piso del dúplex" />
+            </div>
+            <figcaption>
+              <span>Dúplex</span>
+              <strong>1.er piso</strong>
+              <small>Distribución 3D actualizada</small>
+            </figcaption>
+          </figure>
+          <figure className="plan-card">
+            <div className="plan-image">
+              <img src="/terra-nova-duplex-segundo-piso-v3.png" alt="Plano 3D actualizado del segundo piso del dúplex" />
+            </div>
+            <figcaption>
+              <span>Dúplex</span>
+              <strong>2.º piso</strong>
+              <small>Distribución 3D actualizada</small>
+            </figcaption>
+          </figure>
+          <figure className="plan-card">
+            <div className="plan-image">
               <img src="/terra-nova-plano-3er-piso-v2.png" alt="Plano 3D actualizado del departamento del tercer piso" />
             </div>
             <figcaption>
@@ -185,16 +205,18 @@ export default function Home() {
           </figure>
           <figure className="plan-card">
             <div className="plan-image">
-              <img src="/terra-nova-terraza-v2.png" alt="Vista 3D actualizada de la terraza y el nivel superior" />
+              <img src="/terra-nova-nivel-superior-v3.png" alt="Plano 3D actualizado del nivel superior con minidepartamento y terraza diferenciados" />
             </div>
             <figcaption>
               <span>Nivel superior</span>
-              <strong>Terraza</strong>
-              <small>Vista 3D referencial</small>
+              <strong>Minidepartamento y terraza</strong>
+              <small>Dos zonas diferenciadas</small>
             </figcaption>
           </figure>
         </div>
-        <p className="plans-disclaimer">Las imágenes muestran la distribución referencial del proyecto. Los detalles finales se confirman con el asesor comercial.</p>
+        <p className="plans-disclaimer">
+          Las imágenes muestran la distribución referencial del proyecto. En el nivel superior, el minidepartamento y la terraza son zonas diferenciadas dentro del mismo piso. Los detalles finales se confirman con el asesor comercial.
+        </p>
       </section>
 
       <section className="benefits-section">

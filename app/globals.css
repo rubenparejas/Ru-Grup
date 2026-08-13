@@ -205,7 +205,7 @@ footer > div { display: flex; justify-content: flex-end; gap: 28px; color: var(-
   .unit-price { grid-column: 2 / 4; align-items: flex-start; text-align: left; }
   .flats-card { grid-template-columns: .2fr 1.3fr 1fr; gap: 36px; }
   .plans-gallery { grid-template-columns: 1fr 1fr; }
-  .plan-card:last-child { grid-column: 1 / -1; width: calc(50% - 11px); }
+  .plan-card:last-child { grid-column: 1 / -1; width: calc(50% - 11px); justify-self: center; }
   .benefits-grid { grid-template-columns: 1fr 1fr; }
   .contact { grid-template-columns: 1fr 1fr; }
   .contact-button { display: none; }
@@ -238,7 +238,7 @@ footer > div { display: flex; justify-content: flex-end; gap: 28px; color: var(-
   .flats-layout { margin-top: 50px; }
   .flats-card { grid-template-columns: 1fr; gap: 22px; padding: 45px 24px; }
   .plans-gallery { grid-template-columns: 1fr; gap: 18px; }
-  .plan-card:last-child { grid-column: auto; width: auto; }
+  .plan-card:last-child { grid-column: auto; width: auto; justify-self: stretch; }
   .plan-image { height: min(145vw, 680px); }
   .benefits-section { padding: 82px 24px; }
   .benefits-grid { grid-template-columns: 1fr; margin-top: 44px; }
