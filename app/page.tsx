@@ -165,7 +165,7 @@ export default function Home() {
         <div className="plans-gallery" aria-label="Planos 3D actualizados de Terra Nova Residencial">
           <figure className="plan-card">
             <div className="plan-image">
-              <img src="/terra-nova-duplex-primer-piso-v3.png" alt="Plano 3D actualizado del primer piso del dúplex" />
+              <img src="/terra-nova-duplex-primer-piso-v4.png" alt="Plano 3D actualizado del primer piso del dúplex" />
             </div>
             <figcaption>
               <span>Dúplex</span>
@@ -175,7 +175,7 @@ export default function Home() {
           </figure>
           <figure className="plan-card">
             <div className="plan-image">
-              <img src="/terra-nova-duplex-segundo-piso-v3.png" alt="Plano 3D actualizado del segundo piso del dúplex" />
+              <img src="/terra-nova-duplex-segundo-piso-v4.png" alt="Plano 3D actualizado del segundo piso del dúplex" />
             </div>
             <figcaption>
               <span>Dúplex</span>
@@ -205,7 +205,7 @@ export default function Home() {
           </figure>
           <figure className="plan-card">
             <div className="plan-image">
-              <img src="/terra-nova-nivel-superior-v3.png" alt="Plano 3D actualizado del nivel superior con minidepartamento y terraza diferenciados" />
+              <img src="/terra-nova-nivel-superior-v4.png" alt="Plano 3D actualizado del nivel superior con minidepartamento y terraza diferenciados" />
             </div>
             <figcaption>
               <span>Nivel superior</span>
