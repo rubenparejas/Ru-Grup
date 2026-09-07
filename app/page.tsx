@@ -1,11 +1,11 @@
 const whatsappUrl =
-  "https://wa.me/51916851544?text=Hola%20Alex%2C%20deseo%20recibir%20informaci%C3%B3n%20sobre%20Terra%20Nova%20Residencial.";
+  "https://wa.me/51994381272?text=Hola%2C%20deseo%20recibir%20informaci%C3%B3n%20sobre%20Terra%20Nova%20Residencial.";
 
 const benefits = [
   {
     number: "01",
     title: "Privacidad real",
-    text: "Un proyecto residencial de escala íntima, pensado para solo cuatro familias.",
+    text: "Un proyecto residencial de escala íntima, pensado para solo cinco unidades.",
   },
   {
     number: "02",
@@ -102,12 +102,12 @@ export default function Home() {
         <div className="project-content">
           <img className="terra-logo" src="/terra-nova-logo.png" alt="Terra Nova Residencial" />
           <span className="eyebrow">Proyecto en desarrollo</span>
-          <h2>Un refugio urbano para cuatro familias.</h2>
+          <h2>Un refugio urbano para pocas familias.</h2>
           <p>
             En la Urbanización Los Parques de Huancayo, Terra Nova propone una forma más íntima de vivir: pocas unidades, ambientes cómodos y una ubicación que conecta la calma de Palián con la ciudad.
           </p>
           <div className="project-stats">
-            <div><strong>4</strong><span>unidades familiares</span></div>
+            <div><strong>5</strong><span>unidades</span></div>
             <div><strong>70.23 m²</strong><span>área de cada flat</span></div>
             <div><strong>176.42 m²</strong><span>área total del dúplex</span></div>
           </div>
@@ -119,7 +119,7 @@ export default function Home() {
         <div className="section-heading compact">
           <span className="eyebrow">Unidades disponibles</span>
           <h2>Elige el espacio que encaja contigo.</h2>
-          <p>Precios de lanzamiento sujetos a disponibilidad y confirmación comercial.</p>
+          <p>Precios de lanzamiento sujetos a disponibilidad y confirmación comercial. Entrega proyectada: marzo 2027.</p>
         </div>
 
         <article className="unit-card duplex-card">
@@ -135,9 +135,9 @@ export default function Home() {
             <span>Estudio o sala de estar</span>
           </div>
           <div className="unit-price">
-            <small>Desde</small>
-            <strong>S/ 500,000</strong>
-            <span>Cochera opcional: S/ 30,000</span>
+            <small>Estado</small>
+            <strong>Reservado</strong>
+            <span>Consulta disponibilidad y lista de espera</span>
           </div>
         </article>
 
@@ -161,6 +161,25 @@ export default function Home() {
             </div>
           </article>
         </div>
+
+        <article className="unit-card duplex-card" style={{ marginTop: "70px" }}>
+          <div className="unit-number">05</div>
+          <div className="unit-title">
+            <span>Minidepartamento · Nivel superior</span>
+            <h3>Una puerta de entrada al proyecto.</h3>
+          </div>
+          <div className="unit-details">
+            <span>35 m²</span>
+            <span>Distribución funcional</span>
+            <span>Baño completo</span>
+            <span>Nivel superior</span>
+          </div>
+          <div className="unit-price">
+            <small>Desde</small>
+            <strong>S/ 149,000</strong>
+            <span>Separación S/ 50 · Inicial 10%</span>
+          </div>
+        </article>
 
         <div className="plans-gallery" aria-label="Planos 3D actualizados de Terra Nova Residencial">
           <figure className="plan-card">
@@ -247,8 +266,8 @@ export default function Home() {
           </a>
         </div>
         <div className="finance-steps">
-          <div><span>01</span><strong>Separa con S/ 1,500</strong><p>Reserva la unidad que prefieras.</p></div>
-          <div><span>02</span><strong>Inicial desde 20 %</strong><p>Consulta las condiciones aplicables.</p></div>
+          <div><span>01</span><strong>Separa con S/ 50</strong><p>Reserva la unidad que prefieras.</p></div>
+          <div><span>02</span><strong>Inicial desde 10 %</strong><p>Consulta las condiciones aplicables.</p></div>
           <div><span>03</span><strong>Opciones de financiamiento</strong><p>Bancos y Fondo Mivivienda, sujetos a evaluación.</p></div>
         </div>
       </section>
@@ -275,11 +294,11 @@ export default function Home() {
           <h2>Da el primer paso hacia tu nuevo hogar.</h2>
         </div>
         <div className="contact-details">
-          <p><span>Asesor</span><strong>Alex Urco</strong></p>
-          <p><span>WhatsApp</span><a href={whatsappUrl} target="_blank" rel="noreferrer">916 851 544</a></p>
-          <p><span>Correo</span><a href="mailto:albassurinversiones@gmail.com">albassurinversiones@gmail.com</a></p>
+          <p><span>Asistente</span><strong>Nela</strong></p>
+          <p><span>WhatsApp</span><a href={whatsappUrl} target="_blank" rel="noreferrer">+51 994 381 272</a></p>
+          <p><span>Correo</span><a href="mailto:contacto@ru-grup.uk">contacto@ru-grup.uk</a></p>
         </div>
-        <a className="contact-button" href={whatsappUrl} target="_blank" rel="noreferrer" aria-label="Escribir a Alex por WhatsApp">
+        <a className="contact-button" href={whatsappUrl} target="_blank" rel="noreferrer" aria-label="Escribir por WhatsApp">
           <span>Escribir por WhatsApp</span><b aria-hidden="true">↗</b>
         </a>
       </section>

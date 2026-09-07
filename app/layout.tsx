@@ -74,8 +74,8 @@ const structuredData = {
       contactPoint: {
         "@type": "ContactPoint",
         contactType: "sales",
-        telephone: "+51 916 851 544",
-        email: "albassurinversiones@gmail.com",
+        telephone: "+51 994 381 272",
+        email: "contacto@ru-grup.uk",
         availableLanguage: "Spanish",
       },
     },
@@ -86,7 +86,7 @@ const structuredData = {
       url: "https://terranova.ru-grup.uk/",
       image: "https://terranova.ru-grup.uk/terra-nova-fachada-v3.png",
       description:
-        "Proyecto residencial de cuatro unidades familiares en Palián, Huancayo, desarrollado por RU GRUP.",
+        "Proyecto residencial de cinco unidades en Palián, Huancayo, desarrollado por RU GRUP.",
       address: {
         "@type": "PostalAddress",
         streetAddress: "Calle Antonio de Sucre 158, Urbanización Los Parques de Huancayo",
@@ -94,7 +94,7 @@ const structuredData = {
         addressRegion: "Junín",
         addressCountry: "PE",
       },
-      numberOfAccommodationUnits: 4,
+      numberOfAccommodationUnits: 5,
       developer: {
         "@id": "https://terranova.ru-grup.uk/#organization",
       },
